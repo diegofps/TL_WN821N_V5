@@ -1,0 +1,10 @@
+"******************************************"
+"NO SKRC,we will use default KSRC"
+"******************************************"
+make ARCH=x86_64 CROSS_COMPILE= -C /lib/modules/4.13.16-202.fc26.x86_64/build M=/home/dsouza/Downloads/TPLINK/Driver  modules
+make[1]: Entering directory '/usr/src/kernels/4.13.16-202.fc26.x86_64'
+"******************************************"
+"NO SKRC,we will use default KSRC"
+"******************************************"
+  CC [M]  /home/dsouza/Downloads/TPLINK/Driver/core/rtw_cmd.o
+make[1]: Leaving directory '/usr/src/kernels/4.13.16-202.fc26.x86_64'
